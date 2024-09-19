@@ -1,0 +1,14 @@
+iniciar uma pasta em react native:
+
+npx create-expo-app@latest (em caso de erro rodar npm i -g npm)
+# Defina o nome do seu projeto
+
+npx expo start
+
+
+Se vocês não estiverem conectados na mesma rede (celular e pc no mesmo wifi, precisa fazer os passos do
+próximo slide)
+
+npm install -g @expo/ngrok
+
+npx expo start –tunnel

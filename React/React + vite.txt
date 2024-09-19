@@ -1,0 +1,19 @@
+iniciar uma pasta em react + vite:
+
+npm create vite
+
+# Defina o nome do seu projeto, em seguida o nome do pacote
+# Defina a framework React JavaScript
+
+cd nome-do-meu-projeto
+
+npm install
+
+# Adição da dependência react-router-dom, para mudança de páginas utilizando o use navigate
+
+npm install react-router-dom
+
+# Inicialize o projeto, para acompanhar o desenvolvimento
+
+npm run dev
+
