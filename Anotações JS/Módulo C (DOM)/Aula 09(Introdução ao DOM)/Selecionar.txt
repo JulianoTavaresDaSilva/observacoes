@@ -1,0 +1,10 @@
+
+por Marca -> getElementsByTagName()
+
+por ID -> getElementsById()
+
+por Nome -> getElementsByTagName()
+
+por Classe -> getElementsByClassName()
+
+por Seletor -> querySelector() ou querySelectorAll()

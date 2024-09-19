@@ -1,0 +1,23 @@
+Algoritmo "Pagamento"
+
+Var
+
+  nome : caractere
+  horasTrabalhadas : inteiro
+  valorPorHora, salario : real
+
+Inicio
+
+  escreva("Digite seu nome: ")
+  leia(nome)
+  escreva("Quanto ganha por hora trabalhada? ")
+  leia(valorPorHora)
+  escreva("Quantas horas trabalha por mês? ")
+  leia(horasTrabalhadas)
+  
+  salario <- valorPorHora * horasTrabalhadas
+  escreval()
+  
+  escreval("O pagamento para ", nome, " deve ser ", salario:8:2)
+  
+Fimalgoritmo

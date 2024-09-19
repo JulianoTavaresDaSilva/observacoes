@@ -1,0 +1,11 @@
+
+eventos são coisas que eu posso fazer com um elemento
+
+mouseentre //o cursor entra em uma div
+mousemove //o cursor se move em uma div
+mousedown //preciona o cursor em uma div
+mouseup //para de precionar o cursor em uma div
+click //click na div 
+mouseout //sai da div
+
+para mais eventos entrar no site: Event reference | MDN

@@ -1,0 +1,26 @@
+Algoritmo "temperatura"
+
+Var
+
+  c, F : real
+  unidade : caractere
+
+Inicio
+
+   escreva("Em qual escala você vai digitar a temperatura? ")
+   leia(unidade)
+
+   se unidade = "F" entao
+      escreval ("Digite a temperatura em Fahreheit: ")
+   leia(F)
+   C <- 5 / 9 * (F - 32)
+   escreval("Temperatura equivalente em Celsius: ", C:4:2)
+   senao
+        escreval("Digite a temperatura em Celsius: ")
+   leia(C)
+   F <- C * 1.8 + 32
+   escreval("Temperatura equivalente em Fahreheit: ", F:4:2)
+   fimse
+
+   
+Fimalgoritmo

@@ -1,0 +1,14 @@
+Templante String{
+Usar ${} para colocar uma variavél dentro do texto e deve estar tudo entre craze ``.
+
+ex: 
+
+var nome = juliano
+`meu nome é ${nome}`
+}
+
+s.length //Quantos caracteres a string tem
+
+s.toUpperCase() //Tudo para "MAIÚSCULA"
+
+s.toLowerCase() //Tudo para "minúsculo"

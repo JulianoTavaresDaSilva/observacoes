@@ -1,0 +1,9 @@
+button#area{
+    font: normal 15pt Arial;
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}

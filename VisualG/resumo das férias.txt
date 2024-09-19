@@ -1,0 +1,54 @@
+if - se
+
+else - senao
+
+switch - escolha ou troca
+
+for - para  (determina que uma ação deve ser executada a partir de uma 
+condição inicial até que seja encontrada outra que interrompa o laço. 
+O fluxo de repetição é controlado por uma variável, que é testada a 
+cada repetição até que se encontre a condição de parada.)
+
+while - enquanto  (cria um laço que executa uma rotina especifica
+enquanto a condição de teste for avaliada como verdadeira. 
+A condição é avaliada antes da execução da rotina.)
+
+do... while - até  (cria um laço que executa uma rotina 
+especifica enquanto a condição de teste for avaliada como verdadeira. 
+A condição é avaliada antes da execução da rotina.)
+
+document.querySelector(): Seleciona um elemento pelo seu seletor CSS.
+
+document.querySelectorAll(): Seleciona todos os elementos que 
+correspondem a um seletor CSS.
+
+element.setAttribute(): Define um atributo para um elemento.
+
+element.textContent: Obtém ou define o texto de um elemento.
+
+array.push(): Adiciona um valor ao final de um array.
+
+array.pop(): Remove o último valor de um array.
+
+array.indexOf(): Obtém o índice de um valor em um array.
+
+array.slice(): Copia uma parte de um array.
+
+try...catch: Tenta executar um bloco de código e, se ocorrer uma exceção, 
+executa um bloco de código de tratamento.
+
+throw: Lançam uma exceção.
+
+class: Declara uma classe.
+
+new: Cria um novo objeto.
+
+this: Refere-se ao objeto atual.
+
+string.length: Obtém o comprimento de uma string.
+
+string.charAt(): Obtém um caractere de uma string.
+
+string.indexOf(): Obtém o índice de um caractere em uma string.
+
+string.replace(): Substitui parte de uma string.

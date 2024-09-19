@@ -1,0 +1,31 @@
+Algoritmo "divisao"
+
+Var
+
+  n, i : inteiro
+  dn, nm, divi : real
+
+Inicio
+
+  escreva("Quantos casos? ")
+  leia(n)
+  
+  divi <- 0
+  
+  para i de 1 ate n faca
+  
+    escreva("Numerador: ")
+    leia(nm)
+    escreva("Denominador: ")
+    leia(dn)
+    
+    se dn <> 0 entao
+      divi <- nm / dn
+      escreval("Resultado : ", divi)
+      
+    senao
+      escreval("Divisão impossivel")
+    fimse
+  fimpara
+
+Fimalgoritmo

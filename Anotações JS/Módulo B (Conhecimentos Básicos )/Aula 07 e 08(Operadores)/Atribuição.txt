@@ -1,0 +1,7 @@
+
+n += 4 ou n ++ 4 //soma 4 ao valor de n ((5 += 4) = 9)
+n -= 4 ou n-- 4 //subtrai 4 do valor de n
+n *= 4 // faz a mesma coisa só muda a operação 
+n /= 4 // "  "  "
+n **= 4 //  "  "  "
+n %= 4 // "  "  "

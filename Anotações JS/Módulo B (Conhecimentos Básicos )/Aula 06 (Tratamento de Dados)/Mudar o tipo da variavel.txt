@@ -1,0 +1,5 @@
+
+para virar número usar Number.parseInt(n) para inteiro, Number.parseFloat(n) para real 
+ou Number(n) para ambos.
+
+para virar string usar String(n) ou n.toString().

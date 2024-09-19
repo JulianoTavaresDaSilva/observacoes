@@ -1,0 +1,59 @@
+Algoritmo "dados_pessoas"
+
+Var
+
+  n, i, mulher : inteiro
+  menorAltura, maiorAltura, soma, media : real
+  vetA : vetor [0..9] de real
+  vetG : vetor [0..9] de caractere
+  
+Inicio
+
+escreva("Quantas pessoas? ")
+leia(n)
+
+para i de 0 ate n-1 faca
+  escreval("Dados da ", i+1, "a aluno: ")
+  escreva("Altura: ")
+  leia(vetA[i])
+  escreva("Genero: ")
+  leia(vetG[i])
+fimpara
+
+maiorAltura <- vetA[0]
+menorAltura <- vetA[0]
+
+para i de 0 ate n-1 faca
+  se vetA[i] > maiorAltura entao
+    maiorAltura <- vetA[i]
+  fimse
+fimpara
+
+para i de 0 ate n-1 faca
+  se vetA[i] < menorAltura entao
+    menorAltura <- vetA[i]
+  fimse
+fimpara
+
+escreval("Menor altura: ", menorAltura)
+escreval("Maior altura: ", maiorAltura)
+
+soma <- 0
+mulher <- 0
+
+para i de 0 ate n-1 faca
+  se vetG[i] = "f" entao
+    mulher <- mulher + 1
+    soma <- soma + vetA[i]
+  fimse
+fimpara
+
+media <- soma / mulher
+
+se mulher = 0 entao
+  escreval("Não há mulheres para contar a média")
+senao
+  escreval("Média da alturas da mulheres =", media:4:2)
+fimse
+
+Fimalgoritmo

@@ -1,0 +1,21 @@
+Algoritmo "Média_Valida"
+
+Var
+
+ n1, n2, media : real
+
+Inicio
+
+  escreva("Digite a primeira nota: ")
+  leia(n1)
+  escreva("Digite a segunda nota: ")
+  leia(n2)
+  
+  se (n1 >= 0) e (n1 <= 10) e (n2 >= 0) e (n2 <= 10) entao
+    media <- (n1 + n2) / 2
+    escreval("A média é: ", media:6:2)
+  senao
+    escreval("Há alguma nota inválida!")
+  fimse
+  
+Fimalgoritmo

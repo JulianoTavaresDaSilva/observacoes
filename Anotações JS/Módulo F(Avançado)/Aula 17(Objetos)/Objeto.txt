@@ -1,0 +1,4 @@
+ex:
+let amigo = {nome:"Juliano", sexo:"M", peso: 67.5, crescer(){}}
+
+o objeto nomeia de forma diferente cada elemento, e tambem pode criar elementos com funções.

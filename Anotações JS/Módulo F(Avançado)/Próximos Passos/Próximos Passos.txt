@@ -1,0 +1,15 @@
+
+Fazer o curso de desenvolvimento web
+
+Estudar mais sobre functions
+
+Estudar mais objetos
+
+Estudar modularização
+
+Estudar RegEx (expressões regulares)
+
+Estudar JSON
+
+Estudar AJAX
+

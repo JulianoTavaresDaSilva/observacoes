@@ -1,0 +1,5 @@
+while = enquanto
+
+do.. while = até
+
+for(inicio, teste, incremento) = para

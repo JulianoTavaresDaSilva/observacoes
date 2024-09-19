@@ -1,0 +1,9 @@
+
++ soma
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão
+** potenciação
+
+

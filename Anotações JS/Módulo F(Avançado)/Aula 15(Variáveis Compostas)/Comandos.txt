@@ -1,0 +1,15 @@
+
+num[] =  //adiciona um valor a um elemento elemento do array 
+ex: num[3] = 6 o elemento 3 recebe 6
+
+num.push() // adiciona um valor ao último elemento do array
+ex: num.push(7) adicionou o valor 7 ao ultimo elemento
+
+num.length // é usado para descobrir o comprimento do vetor
+
+num.sort() // coloca todos os elementos de uma array em ordem crescente 
+
+num.indexOf() // procura aonde se encontra algum valor dentro do array
+ex: num.indexOf(7) procura aonde esta o valor 7 e retorna em que elemento
+esse valor se encontra, mas se ele retornar o elemento -1 é porque o valor
+que você procura não existe dentro desse array

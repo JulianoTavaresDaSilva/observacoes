@@ -1,0 +1,25 @@
+Algoritmo "notas"
+
+Var
+
+  nota1, nota2, notaF : real
+
+Inicio
+
+  escreva("Primeira Nota : ")
+  leia(nota1)
+  escreva("Segunda Nota : ")
+  leia(nota2)
+  
+  notaF <- (nota1 + nota2)/2
+  
+  se notaF >= 6.0 entao
+     escreval("Nota Final = ", notaF:2:1)
+     escreval("Aprovado!")
+  
+  senão
+       escreval("Nota Final = ", notaF:2:1)
+       escreval("Reprovado!")
+  fimse
+
+Fimalgoritmo

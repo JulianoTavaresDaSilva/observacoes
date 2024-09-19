@@ -1,0 +1,7 @@
+
+Isso faz um looping para mostrar de forma diferente todos os valores de um array
+
+for (let pos(variavel)  in  num(nome do vetor)){
+   console.log(num[pos])
+}
+

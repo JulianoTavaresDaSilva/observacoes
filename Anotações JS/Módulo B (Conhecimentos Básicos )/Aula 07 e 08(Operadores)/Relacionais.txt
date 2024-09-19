@@ -1,0 +1,9 @@
+
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+== igual
+!= diferente
+=== testa a identidade, mesmo tipo e mesmo valor
+!== identidades diferentes

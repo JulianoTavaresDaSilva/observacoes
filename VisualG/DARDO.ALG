@@ -1,0 +1,27 @@
+Algoritmo "dardo"
+
+Var
+
+  a1, a2, a3 : real
+
+Inicio
+
+   escreva("Primeiro arremesso :")
+   leia(a1)
+   escreva("Segundo arremesso :")
+   leia(a2)
+   escreva("Terceiro arremesso :")
+   leia(a3)
+   escreval()
+   
+   se (a1 >= a2) e (a1 >= a3)entao
+      escreval ("Melhor lançamento: ",a1:6:2)
+   senao
+        se (a2 >= a1) e (a2 >= a3) entao
+           escreval ("Melhor lançamento: ",a2:6:2)
+        senao
+             escreval("Melhor lançamento: ",a3:6:2)
+        fimse
+   fimse
+   
+Fimalgoritmo

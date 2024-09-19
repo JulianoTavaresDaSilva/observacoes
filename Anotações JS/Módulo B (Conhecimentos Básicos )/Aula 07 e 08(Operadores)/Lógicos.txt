@@ -1,0 +1,4 @@
+
+! negação (não)
+&& conjunção (e)
+|| dijunção (ou)

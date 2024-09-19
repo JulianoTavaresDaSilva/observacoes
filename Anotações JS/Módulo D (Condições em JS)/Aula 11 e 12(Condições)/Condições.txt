@@ -1,0 +1,4 @@
+
+if = se
+else = senão
+switch //só funciona com números inteiros e strings

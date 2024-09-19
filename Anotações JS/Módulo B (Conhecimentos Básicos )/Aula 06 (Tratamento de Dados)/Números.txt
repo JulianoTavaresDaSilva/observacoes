@@ -1,0 +1,6 @@
+
+n1.toFixed(Quantidade de casas decimais) 
+//Determina quantas casas decimais o número vai ter.
+
+n1.toLocateString("pt-BR", {style: "currency", currency: "BRL"}) 
+//Mostra um número em valor monetário.

@@ -1,0 +1,10 @@
+
+Number (Infinity e NaN) 
+String
+Boolean
+Null
+Undefined
+Object (Array)
+Funtion
+
+typeof //Comando para saber qual o tipo da variável

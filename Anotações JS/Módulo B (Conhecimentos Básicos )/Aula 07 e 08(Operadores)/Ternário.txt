@@ -1,0 +1,9 @@
+
+?
+:
+
+Sempre na mesma expreção
+
+teste ? true : false
+ex: media >= 7 ? "Aprovado" : "Reprovado"
+
